@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos - Rádio Maroto FM 104,9</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .video-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .video-item {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            padding: 10px;
+        }
+
+        .video-item video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .video-item h3 {
+            margin: 10px 0;
+            font-size: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../images/radio-maroto-logo.png" alt="Rádio Maroto FM 104,9" class="logo">
+        <h1>Rádio Maroto FM 104,9</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="videos.html">Vídeos</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Vídeos</h2>
+        <p>Assista nossos conteúdos diretamente por aqui!</p>
+
+        <div class="video-gallery">
+            <div class="video-item">
+                <video controls>
+                    <source src="../videos/video1.mp4" type="video/mp4">
+                    Seu navegador não suporta o vídeo.
+                </video>
+                <h3>Minecraft teste</h3>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="../videos/video2.mp4" type="video/mp4">
+                    Seu navegador não suporta o vídeo.
+                </video>
+                <h3>Nome do vídeo 2</h3>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="../videos/video3.mp4" type="video/mp4">
+                    Seu navegador não suporta o vídeo.
+                </video>
+                <h3>Nome do vídeo 3</h3>
+            </div>
+            <div class="video-item">
+                <video controls>
+                    <source src="../videos/video4.mp4" type="video/mp4">
+                    Seu navegador não suporta o vídeo.
+                </video>
+                <h3>Nome do vídeo 4</h3>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Rádio Maroto FM 104,9</p>
+    </footer>
+</body>
+</html>
